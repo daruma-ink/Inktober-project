@@ -1,11 +1,16 @@
 @font-face {
-    font-family: ebas-medium;
-    src: url(./assets/font/EBAS\ Medium.woff) format("woff");
-    src: url(./assets/font/EBAS\ Medium.ttf) format("opentype");
+    font-family: soufflet-ebas;
+    src: url(./assets/font/soufflet-ebas.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    /*
+    Note about fontface. it has the following chinese characters included:
+    墨 月 佛 慈 心 第 一 二 三 四 五 六 七 八 九 十 百 千 上 下
+    */
 }
 
 body {
-    font-family: ebas-medium;
+    font-family: 'Soufflet-ebas', serif, 'PingFang SC', 'Microsoft YaHei';
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,6 +73,11 @@ nav ul li {
     margin-top: 5vh;
     text-align: center;
     font-size: smaller;
+}
+
+#seal {
+    height: 25px;
+    width: auto;
 }
 
 a {
