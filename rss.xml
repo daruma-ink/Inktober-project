@@ -1,8 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>Daruma Ink</title>
+<link>https://www.daruma.ink/</link>
+<description>Daruma's drawtober and art blog</description>
+
 <item>
   <title>00: Daruma in Paradise</title>
   <link>https://www.daruma.ink/blog/02.html</link>
-  <description>The first ever RSS post for the test-pages of the site! Based on a sketch by Akira Toriyama</description>
-  <pubDate>Tue, 17 Sep 2024</pubDate>
   <guid>https://www.daruma.ink/blog/02.html</guid>
+  <pubDate>Tue, 17 Sep 2024 10:30:00 +0800</pubDate>
   <enclosure url="https://www.daruma.ink/assets/img/01.jpg" type="image/jpg" />
+  <description>The first ever RSS post for the test-pages of the site! Based on a sketch by Akira Toriyama</description>
 </item>
+
+<item>
+<title>0: Test</title>
+  <link>https://www.daruma.ink/blog/01.html</link>
+  <guid>https://www.daruma.ink/blog/01.html</guid>
+  <pubDate>Mon, 16 Sep 2024 10:30:00 +0800</pubDate>
+  <enclosure url="https://www.daruma.ink/assets/img/00.jpg" type="image/jpg" />
+  <description>The desk where all the magic happens.</description>
+</item>
+
+</channel>
+</rss>
